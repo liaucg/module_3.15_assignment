@@ -13,7 +13,6 @@ functions:
       - httpApi:
           path: /
           method: get
-      - cloudwatchLog: '/aws/lambda/index'
 
 plugins:
   - serverless-offline
