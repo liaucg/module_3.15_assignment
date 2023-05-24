@@ -279,4 +279,6 @@ $ curl https://ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com/
 ```
 
 then examine the output message from CloudWatch log stream
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/da3aacd5-4eb8-494a-a0e7-925a6393facc)
+
 
