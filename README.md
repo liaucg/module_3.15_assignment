@@ -5,7 +5,7 @@
 The objective of this assignment is to set up a continuous integration and continuous deployment (CI/CD) pipeline for a Node.js application that is deployed on a serverless platform with Logging and Monitoring in placed!.
 
 ## Step 1: Create a code repository in GitHub
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/dfdb2e8a-2501-4f1d-8465-5e3af6346e6b)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/f5b7f2be-ccd2-4dc0-9ee3-7520593cbaff)
 
 ## Step 2: Clone the code repository into local machine
 ```
@@ -13,7 +13,7 @@ $ git clone git@github.com:liaucg/module_3.15_assignment.git
 ```
 
 ## Step 3: Create index.js file
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/764d448d-e10e-4bbb-a96b-0910d0662e3f)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/6e66d921-d381-4292-b961-1c98513db557)
 
 [index.js](index.js)
 ```js
@@ -33,7 +33,7 @@ module.exports.handler = async (event) => {
 ```
 
 ## Step 4: Create serverless.yml
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/76b53264-b9b9-4d6e-85ae-44ddf43df4a5)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/dc40b874-decf-4d82-ac77-1e6fdf6f69a2)
 
 [serverless.yml](serverless.yml)
 ```yml
@@ -100,7 +100,7 @@ which resulted in the following response:
       "content-length": "0",
       "host": "ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com",
       "user-agent": "curl/7.81.0",
-      "x-amzn-trace-id": "Root=1-646e0c00-1a91d826719dc5f2339594b5",
+      "x-amzn-trace-id": "Root=1-646e0f93-49116b9220b8106165a13de0",
       "x-forwarded-for": "118.200.182.45",
       "x-forwarded-port": "443",
       "x-forwarded-proto": "https"
@@ -117,11 +117,11 @@ which resulted in the following response:
         "sourceIp": "118.200.182.45",
         "userAgent": "curl/7.81.0"
       },
-      "requestId": "FbbQHiUEyQ0EMDA=",
+      "requestId": "FbdfBiopyQ0EMpQ=",
       "routeKey": "GET /",
       "stage": "$default",
-      "time": "24/May/2023:13:07:12 +0000",
-      "timeEpoch": 1684933632443
+      "time": "24/May/2023:13:22:27 +0000",
+      "timeEpoch": 1684934547006
     },
     "isBase64Encoded": false
   }
@@ -130,7 +130,7 @@ which resulted in the following response:
 
 ## Step 6: Create CI/CD pipeline with GitHub Actions
 Create main.yml in .github/workflows folder
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/d5676618-178c-483d-a8d5-959758950744)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/d3a2863b-fa8c-4bd8-8830-5aca921b7dee)
 
 [main.yml](.github/workflows/main.yml)
 ```yml
@@ -199,7 +199,7 @@ jobs:
 **env**: Set the environment variables.
 
 ## Step 7: Add AWS_ACCESS_KEY_ID and ASW_SECRET_ACCESS_KEY to GitHub Secrets
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/c96a13e3-13c5-4aec-8200-9da80b4e2285)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/91282513-1aee-4273-924b-4e7d0f51cd93)
 
 ## Step 8: Push changes to GitHub to start the workflow
 Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
