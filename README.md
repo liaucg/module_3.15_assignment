@@ -70,18 +70,20 @@ $ serverless deploy
 
 Following is the output from deploy command:
 ```
-Deploying liau-module-3-13-assignment to stage dev (ap-southeast-1)
+Running "serverless" from node_modules
 
-✔ Service deployed to stack liau-module-3-13-assignment-dev (126s)
+Deploying liau-module-3-15-assignment to stage dev (ap-southeast-1)
 
-endpoint: GET - https://krmtbssdk2.execute-api.ap-southeast-1.amazonaws.com/
+✔ Service deployed to stack liau-module-3-15-assignment-dev (129s)
+
+endpoint: GET - https://ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com/
 functions:
-  api: liau-module-3-13-assignment-dev-api (53 MB)
+  api: liau-module-3-15-assignment-dev-api (53 MB)
 ```
 
 After succesful deployment the created serverless application can be invoked with curl command:
 ```
-curl https://krmtbssdk2.execute-api.ap-southeast-1.amazonaws.com/
+curl https://ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com/
 ```
 
 which resulted in the following response:
@@ -96,18 +98,18 @@ which resulted in the following response:
     "headers": {
       "accept": "*/*",
       "content-length": "0",
-      "host": "krmtbssdk2.execute-api.ap-southeast-1.amazonaws.com",
+      "host": "ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com",
       "user-agent": "curl/7.81.0",
-      "x-amzn-trace-id": "Root=1-646cb550-5e22d9da198d4da330c22e75",
+      "x-amzn-trace-id": "Root=1-646e0c00-1a91d826719dc5f2339594b5",
       "x-forwarded-for": "118.200.182.45",
       "x-forwarded-port": "443",
       "x-forwarded-proto": "https"
     },
     "requestContext": {
       "accountId": "255945442255",
-      "apiId": "krmtbssdk2",
-      "domainName": "krmtbssdk2.execute-api.ap-southeast-1.amazonaws.com",
-      "domainPrefix": "krmtbssdk2",
+      "apiId": "ntr33tfrmb",
+      "domainName": "ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com",
+      "domainPrefix": "ntr33tfrmb",
       "http": {
         "method": "GET",
         "path": "/",
@@ -115,11 +117,11 @@ which resulted in the following response:
         "sourceIp": "118.200.182.45",
         "userAgent": "curl/7.81.0"
       },
-      "requestId": "FYFErjfKSQ0EMZA=",
+      "requestId": "FbbQHiUEyQ0EMDA=",
       "routeKey": "GET /",
       "stage": "$default",
-      "time": "23/May/2023:12:45:04 +0000",
-      "timeEpoch": 1684845904885
+      "time": "24/May/2023:13:07:12 +0000",
+      "timeEpoch": 1684933632443
     },
     "isBase64Encoded": false
   }
