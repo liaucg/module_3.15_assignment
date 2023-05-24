@@ -271,6 +271,12 @@ console.log("Your function executed successfully!";
 ```
 
 ## Step 12: Push changes to GitHub to start the workflow
-Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
+Commit changes locally and push it to GitHub. 
 
+## Step 13: Invoke the serverless function to verify that the logging is working
+```
+$ curl https://ntr33tfrmb.execute-api.ap-southeast-1.amazonaws.com/
+```
+
+then examine the output message from CloudWatch log stream
 
