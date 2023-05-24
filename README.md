@@ -262,4 +262,15 @@ Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click
 ![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/6fe2ef43-1317-4708-a15c-abeec3995b15)
 ![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/ba3b75ef-e2ac-430f-b176-f684aec9eb7f)
 
+## Step 11: Add logging to the serverless application
+Here **console.log** command is added to [index.js](index.js) to output the message "Your function executed successfully!". This message will be captured in CloudWatch log stream.
+
+[index.js](index.js)
+```js
+console.log("Your function executed successfully!";
+```
+
+## Step 12: Push changes to GitHub to start the workflow
+Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
+
 
