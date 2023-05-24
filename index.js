@@ -1,5 +1,5 @@
 module.exports.handler = async (event) => {
-  print("function successfully invoked!");
+  console.log("event:", event);
   return {
     statusCode: 200,
     body: JSON.stringify(
