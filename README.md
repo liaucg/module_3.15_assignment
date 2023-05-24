@@ -37,7 +37,7 @@ module.exports.handler = async (event) => {
 
 [serverless.yml](serverless.yml)
 ```yml
-service: liau-module-3-13-assignment
+service: liau-module-3-15-assignment
 frameworkVersion: '3'
 
 provider:
@@ -203,13 +203,13 @@ jobs:
 
 ## Step 8: Push changes to GitHub to start the workflow
 Commit changes locally and push it to GitHub. Navigate the repo on GitHub, click on the **Actions** tab to see the workflows.
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/4610cf33-f149-43f8-9323-3fc908dfb0e9)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/91776f94-7ca8-4265-9731-e102818dbd16)
 
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/ff439593-84a9-4973-8211-ad12a088a86d)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/fb257691-2ac4-4ff1-ab1d-31d36e24291f)
 
 ## Step 9: Add a secret in AWS Secrets Manager
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/3536fcdc-0716-455c-9f7b-4842a44288c3)
-![image](https://github.com/liaucg/module_3.13_assignment/assets/22501900/d5fb8a2f-7bd5-4f61-a2f3-abe3a48df829)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/aba829da-c0c4-46c9-83c1-ac3af2a5826b)
+![image](https://github.com/liaucg/module_3.15_assignment/assets/22501900/f9b6de9c-83ff-4b5c-a983-6ac760517657)
 
 ## Step 10: Retrieve the stored secret from AWS Secrets Manager as part of the CI/CD pipeline
 Add a new job **retrieve-secret** to .github/workflows/main.yml to retrieve the stored secret *LIAU_SECRET_2* from AWS Secrets Manager and inject into environment variables
